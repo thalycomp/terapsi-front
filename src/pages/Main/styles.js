@@ -32,6 +32,8 @@ export const Banner = styled.div`
 
 export const Header = styled.header`
   max-width: 1024px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin: 0 auto;
   padding-top: 20px;
 
@@ -65,6 +67,8 @@ export const BannerInterno = styled.section`
 export const TitleSubtitle = styled.article`
   @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap');
   max-width: 400px;
+  padding-left: 20px;
+  padding-right: 20px;
   color: #fff;
   h1 {
     font-size: 30px;
@@ -88,6 +92,7 @@ export const About = styled.section`
     color: var(--verde);
     margin-top: 30px;
     text-align: center;
+
   }
 `;
 

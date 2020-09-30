@@ -27,7 +27,7 @@ function Main() {
                   <img src={logo} alt="terapsi" />
               </Link>
               <Nav>
-                  <Link to="/login">
+                  <Link to="/logon">
                       <strong>Cadastrar</strong>
                   </Link>
                   <Link to="/login">
