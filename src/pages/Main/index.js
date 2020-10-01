@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaFacebook } from 'react-icons/fa';
 
 import { Container,
   Header,
@@ -14,7 +13,7 @@ import { Container,
   ConteinerAbout,
   List
  } from './styles';
-
+import Footer from '../../components/Footer';
 import logo from '../../assets/logo.png';
 import imgBanner from '../../assets/imgBanner.png';
 
@@ -77,17 +76,10 @@ function Main() {
               </List>
             </Psi>
           </Users>
+          <button>Quero me inscrever!</button>
         </About>
       </ConteinerAbout>
-      <footer>
-        <img src={logo} alt="terapsi" />
-        <div>
-          <strong>FALE CONOSCO</strong>
-          <span>(88) 9999 9999</span>
-          <span>Rua dos Bobos, numero 0</span>
-        </div>
-        <FaFacebook size={40} color="#fff"/>
-      </footer>
+      <Footer />
     </Container>
   );
 }

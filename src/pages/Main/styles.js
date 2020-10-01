@@ -1,30 +1,9 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  footer {
-    img {
-      width: 90px;
-      height: 30px;
-    }
-    color: #fff;
-    background-color: var(--verde);
-    margin-top: 60px;
-    height: 100px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    > div {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      margin: 5px;
-      strong {
-        margin-bottom: 10px;
-      }
-    }
-  }
 
 `;
+
 export const Banner = styled.div`
   background-color: var(--verde);
   height: 480px;
@@ -82,17 +61,29 @@ export const TitleSubtitle = styled.article`
 `;
 
 export const ConteinerAbout = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
 `;
 
 export const About = styled.section`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   h1 {
     color: var(--verde);
     margin-top: 30px;
     text-align: center;
-
+  }
+  button {
+    background-color: var(--verde);
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 8px;
+    padding: 10px 10px;
+    font-weight: bold;
   }
 `;
 
@@ -101,6 +92,7 @@ export const Users = styled.section`
   margin-top: 20px;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 40px;
 `;
 
 
