@@ -22,6 +22,8 @@ export const Header = styled.header`
 `;
 
 export const Nav = styled.nav`
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap');
+  font-family: Ubuntu, sans-serif;
   strong {
     padding-left: 10px;
     padding-right: 10px;

@@ -88,7 +88,7 @@ export const Query = styled.section`
     border-radius: 4px;
     height: 30px;
     padding: 0 15px;
-    color: #fff;
+    color: var(--verde);
   }
   button {
     height: 20px;
