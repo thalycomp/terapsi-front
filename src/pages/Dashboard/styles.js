@@ -9,8 +9,8 @@ export const Container = styled.div`
 
 export const Banner = styled.div`
   background-color: var(--verde);
-  height: 300px;
-  margin-bottom: 20px;
+  height: 100px;
+  margin-bottom: 100px;
 `;
 
 export const Header = styled.header`
@@ -40,73 +40,6 @@ export const Nav = styled.nav`
   }
 `;
 
-export const BannerInterno = styled.section`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px;
-`;
-
-export const TitleSubtitle = styled.article`
-  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap');
-  max-width: 400px;
-  padding-left: 20px;
-  padding-right: 20px;
-  color: #fff;
-  text-align: center;
-  > h1 {
-    font-size: 25px;
-    font-family: 'Ubuntu', sans-serif;
-  }
-  > p {
-    font-size: 18px;
-    max-width: 300px;
-    margin-top: 10px;
-  }
-`;
-
-export const Query = styled.section`
-  width: 100%;
-  border-top: 1px solid #fff;
-  padding-top: 20px;
-  margin-top: 20px;
-  max-width: 600px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: #fff;
-  div {
-    display: flex;
-    flex-direction: column;
-    > strong {
-      margin-bottom: 5px;
-    }
-  }
-  input {
-    border: 0;
-    border-radius: 4px;
-    height: 30px;
-    padding: 0 15px;
-    color: #fff;
-  }
-  button {
-    height: 20px;
-    background: none;
-    font-weight: bold;
-    color: #fff;
-    font-size: 14px;
-    text-transform: uppercase;
-    border: 2px solid #fff;
-    border-radius: 4px;
-    padding: 15px 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 14px;
-  }
-`;
-
 export const Info = styled.article`
   margin: 0 auto;
   width: 600px;
@@ -118,6 +51,7 @@ export const Info = styled.article`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 20px;
 
   > button {
     height: 20px;
@@ -160,28 +94,23 @@ export const HgroupInfo = styled.hgroup`
   }
 `;
 
-export const CostDuration = styled.aside`
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 40px;
-  padding: 10px;
-  border-radius: 4px;
-  background-color: var(--verde);
+export const Links = styled.aside`
+  margin-left: 60px;
   div {
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding-right: 10px;
+    align-items: center;
+  }
+  a {
+    text-decoration: none;
+    color: var(--verde);
   }
 `;
 
 
 export const HeaderInfo = styled.header`
-  hr {
-    color: #eee;
-  }
+  display: flex;
+  justify-content: space-between;
 `;
 
 export const Description = styled.article`
@@ -190,10 +119,82 @@ export const Description = styled.article`
   border-bottom: 1px solid #e6e6e6;
   padding-top: 20px;
   padding-bottom: 20px;
+  text-align: center;
 
   p {
     margin-top: 15px;
     color: #383838;
   }
 `;
+
+
+/*
+export const ConteinerAbout = styled.div`
+`;
+
+export const About = styled.section`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    color: var(--verde);
+    margin-top: 30px;
+    text-align: center;
+  }
+  button {
+    background-color: var(--verde);
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 8px;
+    padding: 10px 10px;
+    font-weight: bold;
+  }
+`;
+
+export const Users = styled.section`
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+`;
+
+
+export const Psi = styled.article`
+  margin-left: 20px;
+  h2 {
+    margin: 20px;
+    color: var(--verde);
+    text-align: center;
+    border: 2px solid var(--verde);
+  }
+  ul {
+    margin-top: 20px;
+    list-style: none;
+    li {
+      display: block;
+    }
+  }
+`;
+
+export const List = styled.ul`
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  li {
+    padding-top: 10px;
+  }
+`;
+
+*/
+
+
 

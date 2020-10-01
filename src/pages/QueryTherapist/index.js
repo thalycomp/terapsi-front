@@ -33,7 +33,7 @@ function QueryTherapist() {
                   <Link to="/logon">
                       <strong>Notificações</strong>
                   </Link>
-                  <Link to="/login">
+                  <Link to="/dashboard">
                       <strong>Perfil</strong>
                   </Link>
               </Nav>
