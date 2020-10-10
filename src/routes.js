@@ -1,4 +1,5 @@
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch } from 'react-router-dom';
+import Route from '../src/routesPrivate';
 import React from 'react';
 
 import Main from '../src/pages/Main';
@@ -16,9 +17,9 @@ export default function Routes() {
         <Route path="/" exact component={Main} />
         <Route path="/login" component={Login} />
         <Route path="/logon" component={Logon} />
-        <Route path="/editprofile" component={EditProfile} />
-        <Route path="/querytherapist" component={QueryTherapist} />
-        <Route path="/dashboard" component={Dashboard} />
+        <Route path="/editprofile" isPrivate component={EditProfile} />
+        <Route path="/querytherapist" isPrivate component={QueryTherapist} />
+        <Route path="/dashboard" isPrivate component={Dashboard} />
       </Switch>
     </BrowserRouter>
   );
