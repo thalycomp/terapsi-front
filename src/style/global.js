@@ -20,9 +20,15 @@ export default createGlobalStyle`
     body, input, button {
         font: 14px Roboto, sans-serif;
     }
+    html, body {
+      width: 100%;
+      height: 100%;
+    }
     #root {
         margin: 0 auto;
         padding: 0;
+        height: 100%;
+        width: 100%;
     }
     button {
         cursor: pointer;

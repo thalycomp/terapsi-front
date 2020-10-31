@@ -107,7 +107,7 @@ export const Query = styled.section`
   }
 `;
 
-export const Info = styled.article`
+export const Info = styled.ul`
   margin: 0 auto;
   width: 600px;
   padding: 30px;
