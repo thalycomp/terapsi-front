@@ -6,7 +6,7 @@ export default function RouterPrivate({
   isPrivate = false,
   ...rest
 }) {
-  const signed = true;
+  const signed = false;
 
   if (!signed && isPrivate) {
     return <Redirect to="/login" />
